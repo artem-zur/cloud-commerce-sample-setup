@@ -10,9 +10,10 @@ Run `yarn start` to build and start a dev server. Navigate to `http://localhost:
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## SSR Mode
 
-Run `yarn build:ssr` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Run `yarn build:ssr` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Run `yarn serve:ssr` to start the project.
 
 ## Running unit tests
 
